@@ -1,0 +1,51 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#be7bf5;
+    color:#000000;
+    
+}
+
+
+.adivinha {
+    text-align: center;
+    margin-top: 0, 0,5px;
+    background-color: #dbd7d7;
+    align-items:center ;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+  }
+
+
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    border-radius: 10px;
+    background: #000000;
+    color: #ffffff;
+    display: inline-block;
+  
+  }
+  
+  .resultado {
+    color: #000000;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  
